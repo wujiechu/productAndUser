@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: development
+---
+server:
+  port: 9090
+spring:
+  application:
+    name: inventory-service
+  profiles: development
+  neo4j:
+    host: ${SPRING_NEO4J_HOST:222.201.187.167}
+    port: ${SPRING_NEO4J_PORT:7474}
+    username: neo4j
+    password: wujiechu
