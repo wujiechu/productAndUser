@@ -58,7 +58,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <imageName>reg.oa.com/wujiechu/$product:1.0.0</imageName>
+                    <imageName>reg.oa.com/wujiechu/product:1.0.0</imageName>
                     <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
                     <resources>
                         <resource>
